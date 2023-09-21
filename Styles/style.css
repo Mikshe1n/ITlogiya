@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url("../Fonts/Gilroy-Semibold.ttf");
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url("../Fonts/Merriweather-Black.ttf");
+}
+
+body {
+    background-color: #191411;
+    font-family: 'Gilroy', sans-serif;
+    color: white;
+}
+
+.header {
+    padding: 40px 0px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.header, .container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img {
+    vertical-align: bottom;
+}
+
+.menu {
+    margin-left: 191px;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 88px;
+}
+
+.menu-item a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-item a:hover {
+    border-bottom: 2px solid white;
+}
+.currency {
+    border:  1px solid #fff;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    padding: 6px;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    line-height: 32px;
+    margin-left: auto;
+    user-select: none;
+}
+
+.main-content {
+    padding-top: 103px;
+    padding-bottom: 199px;
+}
+
+.main-info {
+    max-width: 608px;
+}
+
+.main-small-info {
+    background: #d3320f;
+    border-radius: 100px;
+    padding: 12px 16px;
+}
