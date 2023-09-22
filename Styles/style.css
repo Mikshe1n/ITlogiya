@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url("../Fonts/Gilroy-Semibold.ttf");
+    src: url("Fonts/Gilroy-Semibold.ttf");
 }
 
 @font-face {
     font-family: 'Merriweather';
-    src: url("../Fonts/Merriweather-Black.ttf");
+    src: url("Fonts/Merriweather-Black.ttf");
 }
 
 body {
@@ -46,7 +46,7 @@ body {
 
 .main{
     overflow: hidden;
-    background-image: url("../Images/main_bg.png");
+    background-image: url("Images/main_bg.png");
     background-position: top center;
 }
 
@@ -146,7 +146,7 @@ body {
 }
 
 .why {
-    background-image: url('../Images/whybg.png');
+    background-image: url('Images/whybg.png');
     background-position: top center;
     background-size: initial;
     padding-bottom: 180px;
