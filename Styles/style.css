@@ -21,7 +21,7 @@ body {
 
 .container {
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 0px auto;
 }
 
 .button {
@@ -141,7 +141,7 @@ body {
 
 .main-image {
     position: absolute;
-    top: -120px;
+    top: -123px;
     left: calc(100% - 991px);
 }
 
