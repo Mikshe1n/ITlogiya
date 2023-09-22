@@ -108,7 +108,7 @@ body {
     padding-bottom: 199px;
 }
 
-.main-content, .container {
+.main-content .container {
     position: relative;
 }
 
@@ -144,3 +144,49 @@ body {
     top: -120px;
     left: calc(100% - 991px);
 }
+
+.why {
+    background-image: url('../Images/whybg.png');
+    background-position: top center;
+    background-size: initial;
+    padding-bottom: 180px;
+}
+
+.why .container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.why-title{
+    font-family: 'Merriweather' sans-serif;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.why-items{
+    margin-top: 60px;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(3, 312px);
+    justify-content: center;
+}
+
+.why-item {
+    text-align: center;
+}
+
+.why-item-title {
+    font-size: 24px;
+    line-height: 29px;
+    padding: 24px 0px;
+}
+
+.why-item-text {
+    font-size: 16px;
+    line-height: 140%;
+}
+
